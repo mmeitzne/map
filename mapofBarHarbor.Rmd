@@ -1,0 +1,12 @@
+---
+date: "July 10, 2018"
+---
+
+## July 10, 2018
+
+```{r, echo = FALSE,  warning=FALSE}
+options(rpubs.upload.method = "internal")
+library(leaflet)
+my_map <- leaflet() %>% addTiles() %>% addMarkers(lng = -68.2039, lat = 44.3876)
+my_map
+```
